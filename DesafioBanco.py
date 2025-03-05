@@ -1,5 +1,7 @@
-
-# Definições Globais
+#!/usr/local/bin/python
+# coding: latin-1
+import os, sys
+# Definices Globais
 saldo = 0
 limite_s = 500
 n_saque = 0
@@ -15,21 +17,21 @@ while True:
     """ )
     opt = input("Escolha uma opção: ")
     
-    # Depósito
+    # Deposito
     if opt == "d":
         saldo_p = float(input("Qual o valor do seu depósito? "))
         if saldo_p <= 0:
-            print("Valor inválido, somente valores positivos, tente novamente.")
+            print("Valor inv?lido, somente valores positivos, tente novamente.")
         else:
             saldo += saldo_p
-            print(f"Depósito de R${saldo_p:.2f} realizado com sucesso.")
+            print(f"Deposito de R${saldo_p:.2f} realizado com sucesso.")
     
     # Saque
     elif opt == "s":
         if saldo == 0:
             print("Sem valor disponível para saque!")
         elif n_saque >= limite_diario:
-            print("Limite diário de saques atingido, tente em data posterior.")
+            print("Limite diario de saques atingido, tente em data posterior.")
         else:
             saque = float(input("Qual o valor do saque? "))
             if saque > limite_s:
@@ -56,3 +58,4 @@ Saldo Disponível: R${saldo:.2f}
     
     else:
         print("Operação inválida\nSelecione novamente a operação desejada.")
+quit
