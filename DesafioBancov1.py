@@ -21,7 +21,7 @@ while True:
     if opt == "d":
         saldo_p = float(input("Qual o valor do seu depósito? "))
         if saldo_p <= 0:
-            print("Valor inv?lido, somente valores positivos, tente novamente.")
+            print("Valor inválido, somente valores positivos, tente novamente.")
         else:
             saldo += saldo_p
             print(f"Deposito de R${saldo_p:.2f} realizado com sucesso.")

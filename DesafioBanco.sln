@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DesafioBanco", "DesafioBanco.pyproj", "{8492B258-D804-4C70-BCDA-4C570EB484FD}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DesafioBancov1", "DesafioBancov1.pyproj", "{8492B258-D804-4C70-BCDA-4C570EB484FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
